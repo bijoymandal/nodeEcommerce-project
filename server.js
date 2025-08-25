@@ -1,5 +1,10 @@
 import express from 'express';
 const server = express();
+import productrouter from './src/features/product/routes/product.routes';
+
+//Routes
+server.use("/api/products",productrouter);
+
 server.get('/', (req, res) => {
   res.send('Welcome to Ecommerce API');
 });
