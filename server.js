@@ -1,6 +1,6 @@
 import express from 'express';
 const server = express();
-import productrouter from './src/features/product/routes/product.routes';
+import productrouter from './src/features/product/routes/product.routes.js';
 
 //Routes
 server.use("/api/products",productrouter);
