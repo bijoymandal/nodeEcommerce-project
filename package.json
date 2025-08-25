@@ -1,0 +1,30 @@
+{
+  "name": "ecommerce-project",
+  "version": "1.0.0",
+  "description": "ApIs Ecommerce Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bijoymandal/nodeEcommerce-project.git"
+  },
+  "keywords": [
+    "Ecommerproject",
+    "flipkart-clone",
+    "shopping",
+    "online-shopping"
+  ],
+  "type": "module",
+  "author": "bijoymandal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bijoymandal/nodeEcommerce-project/issues"
+  },
+  "homepage": "https://github.com/bijoymandal/nodeEcommerce-project#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
